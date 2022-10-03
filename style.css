@@ -1,0 +1,162 @@
+*{
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans Mono', monospace;
+}
+.main {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    flex-direction: column;
+    position: fixed;
+    top: 25%;
+
+}
+
+.container {
+    border: 1px solid #E8DFCA;
+    border-radius: 1rem;
+    background-color: #F5EFE6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.screen {
+    height: 2rem;
+    width: 85%;
+    background: fixed;
+    background-color: #E8DFCA;
+    margin: 1rem auto;
+    display: flex;
+    border: 1px solid #F5EFE6;
+    border-radius: 0.5rem;
+}
+
+.screen-current {
+    display: flex;
+    color: #7895B2;
+}
+
+.currentOpScreen {}
+
+.lastOpScreen {}
+
+.button-grid {
+    background-color: #AEBDCA;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+}
+
+.firstRow {
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    justify-content: space-between;
+}
+
+.secondRow {
+    display: flex;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    gap: 0.8rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.thirdRow {
+    display: flex;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    gap: 0.8rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.forthRow {
+    display: flex;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    gap: 0.8rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.fifthRow {
+    display: flex;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    gap: 0.8rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+h1 {
+    color: #7895B2;
+    display: flex;
+
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    display: flex;
+    background-color: #E8DFCA;
+    color: #7895B2;
+    justify-content: space-around;
+}
+
+button {
+    width: 2rem;
+    font-size: small;
+    height: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+    display: flex;
+    border-radius: 0.3rem;
+    border: 0.5px solid #7895B2;
+    color: white;
+    background-color: #7895B2;
+
+}
+
+.btn:hover {
+    color: #343c42;
+}
+
+.clear {
+    display: flex;
+    border-radius: 0.3rem;
+    border: 0.5px solid #7895B2;
+    color: white;
+    background-color: #7895B2;
+width: 45%
+
+}
+.clear:hover {
+    color: #2469d1;
+}
+
+.delete {
+    display: flex;
+    border-radius: 0.3rem;
+    border: 0.5px solid #7895B2;
+    color: white;
+    background-color: #7895B2;
+width: 45%;
+}
+.delete:hover {
+    color: #ca4f29;
+}

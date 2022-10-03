@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Noto+Sans+Mono:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main class="main">
+        <h1 id="headreh1">Calculator</h1>
+
+        <div class="container">
+            <div class="screen">
+                <div class="screen-last" id="lastOpScreen"></div>
+                <div class="screen-current" id="currentOpScreen">0</div>
+            </div>
+            <div class="button-grid">
+                <div class="firstRow">
+                    <button class="clear" id="clearBtn">Clear</button>
+                    <button class="delete" id="deleteBtn">Delete</button>
+                </div>
+                <div class="secondRow">
+                    <button class="btn" data-number>7</button>
+                    <button class="btn" data-number>8</button>
+                    <button class="btn" data-number>9</button>
+                    <button class="btn" data-operator>x</button>
+                </div>
+                <div class="thirdRow">
+                <button class="btn" data-number>6</button>
+                <button class="btn" data-number>5</button>
+                <button class="btn" data-number>4</button>
+                <button class="btn" data-operator>-</button>
+                </div>
+                <div class="forthRow">
+                    <button class="btn" data-number>3</button>
+                    <button class="btn" data-number>2</button>
+                    <button class="btn" data-number>1</button>
+                    <button class="btn" data-operator>÷</button>
+                </div>
+                <div class="fifthRow">
+                    <button class="btn" id="pointBtn">.</button>
+                    <button class="btn" data-number>0</button>
+                    <button class="btn" data-operator>+</button>
+                    <button class="btn" id="equalBtn">=</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>
+            Copyright
+
+            <script>
+                document.write(new Date().getFullYear())
+            </script>
+
+            Badi3
+        </p>
+    </footer>
+</body>
+
+</html>
