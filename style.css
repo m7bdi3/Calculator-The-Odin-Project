@@ -36,13 +36,18 @@ font-family: 'Noto Sans Mono', monospace;
 }
 
 .screen-current {
-    display: flex;
-    color: #7895B2;
+    color: #4a7eb3;
+    font-size: 16px;
+    margin-left: 6%;
+margin-top: 0.2rem;
 }
 
-.currentOpScreen {}
-
-.lastOpScreen {}
+.screen-last {
+    color: #4a7eb3;
+    font-size: 16px;
+margin-left: 6%;
+margin-top: 0.2rem;
+}
 
 .button-grid {
     background-color: #AEBDCA;
